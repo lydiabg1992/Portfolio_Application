@@ -3,17 +3,24 @@ body {
 }
 
 main {
-    background-color: white;
-    margin: 20px 300px;
+    background-color: #F1F2F2;
+    margin: 10px 300px;
     border: 5px;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
 }
 
-nav {
-    width: 100%;
+
+.headerimg {
+    width: 100%; 
     max-width: 100%;
+}
+
+nav {
+    
+    display:flex;
+    justify-content: flex-end;
     
 }
 
@@ -32,7 +39,7 @@ h1 {
 
 h2 {
     font-size: 1em;
-    font-family: Georgia, sans-serif;
+    font-family: Arial, sans-serif;
 
 }
 
@@ -47,6 +54,10 @@ h2 {
 align-items: left;
 justify-content: left;
 padding: 5px;
+font-family: Arial, sans-serif;
+font-weight: lighter;
+font-size: 1em;
+text-transform: uppercase;
 }
 
 ul {
@@ -54,16 +65,46 @@ ul {
     list-style-type: none;
     display:flex;
     flex-direction: row;
+    justify-content: flex-start;
 
 }
 
 li {
+   color: black;
+    font-weight:lighter;
+    font-style:normal;
+    font-size: 1.15em;
+    font-family: Arial, sans-serif;
+}
+
+
+button {
     border: 2px solid red;
-    background-color: black;
-    color: white;
-    padding: 10px;
+    background-color: white;
+    padding: 18px;
     margin: 8px;
     border-radius: 50px;
+    box-shadow: 0 7px #999
 
-    
+}
+
+button:hover {
+background-color: #999;
+
+
+}
+
+
+.hamburger {
+
+}
+
+
+
+footer {
+font-family: Arial, sans-serif;
+font-size: .85em;
+display:flex;
+align-self: center;
+
 }
